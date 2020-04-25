@@ -1,7 +1,9 @@
 # Stock-Bot
 
 StockBot is a Discord bot that tracks real time stock data and allows users to build their own portfolio of stocks without having to worry about the actual risks of the stock market. Users have their portfolios held in an sqlite database, and the value of stocks is updated in real time thanks to [WorldTradingData](https://www.worldtradingdata.com/).
+## - Attention -
 
+WorldTradingData is currently expereincing issues with their API, leading to degraded functionality. According to a support email, it should be back up and running by 5/4/20, but until then the bot will have little to no functionality.
 ## Installation
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org) (which comes with [npm](https://npmjs.com)) installed on your computer. From your command line:
