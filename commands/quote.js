@@ -16,7 +16,6 @@ exports.run = async (client, message, args) => { // eslint-disable-line no-unuse
   })
   .then(response => {
     console.log(response);
-    //only allow updates every 10 min
     if(response.data[0] == undefined){
       msg.edit(`Please enter a valid stock symbol. Note: Stock symbols aren't the same as company names. For example, APPLE's symbol is AAPL. *(err.symbol.undefined)*`).catch(console.error);
     } else{
